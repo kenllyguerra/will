@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <center> ISABELLA ARGEL NARANJO</center>
+    <title>ASIGNACIÓN DE AULAS </title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>ASIGNACIÓN DE AULAS </h1>
+        <label for="materia">Seleccionar Materia:</label>
+        <select id="materia">
+            <option value="">Seleccione una materia</option>
+            <option value="Matemáticas">Matemáticas</option>
+            <option value="Historia">Historia</option>
+            <option value="Biología">Biología</option>
+            <option value="Química">Química</option>
+        </select>
+
+        <div id="info"></div>
+
+        <textarea id="input" placeholder="Ingrese horarios (ej: 09:00-10:00, Aula1)"></textarea>
+        <textarea id="aulas" placeholder="Ingrese aulas disponibles (ej: Aula1, Aula2)"></textarea>
+        <button id="asignar">Asignar Clases</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
